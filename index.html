@@ -18,7 +18,9 @@
     <!-- Responsive image block, changes based on screen size -->
     <picture>
       <!-- Landscape images for screens smaller than 960px -->
-      
+       <source 
+        media= "(max-width: 320px)"
+        srcset= "
       <!-- Square images for screens 960px and wider -->
       <source srcset="images/museum-800x800.jpg 1x, images/museum-1600x1600.jpg 2x, images/museum-2400x2400.jpg 3x" media="(min-width: 960px)">
 
